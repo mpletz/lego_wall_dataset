@@ -12,7 +12,9 @@ A lego wall is hit by a rigid sphere with a constant velocity of 20 m/s in a [sc
 
 During and after the impact, work $E_{wk}$ is done in the model, the kinetic energy $E_{kin}$ is increased, and frictional dissipation $E_{fric}$ occurs. 
 
-![](images/example-fem-design/random-017_res.png)
+<div align="center">
+<img src="images/example-fem-design/random-017_res.png" width="500">
+</div>
 
 It the aim of the wall is to stop a projectile or slow it down as much as possible, these energies should be maximized. Since converting the kinetic energy of the sphere to kinetic energy of the Lego bricks may not be the best option, the frictional dissipation $E_{fric}$ at the end of the simulation can be regarded as the most relevant output.
 
