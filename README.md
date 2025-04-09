@@ -7,16 +7,35 @@ Contribution of the [KKV](https://www.kunststofftechnik.at/konstruieren) to the 
 A lego wall is hit by a rigid sphere with a constant velocity of 20 m/s in a [scripted FEM model](https://www.github.com/mpletz/brickfem):
 
 <div align="center">
-<img src="images/example-fem-design/random-017-000_6ms-anim.gif" width="250">
+<img src="images/fem_results/random-fem-design/random-017-000_6ms-anim.gif" width="350">
 </div>
 
 During and after the impact, work $E_{wk}$ is done in the model, the kinetic energy $E_{kin}$ is increased, and frictional dissipation $E_{fric}$ occurs. 
 
 <div align="center">
-<img src="images/example-fem-design/random-017_res.png" width="500">
+<img src="images/fem_results/random-fem-design/random-017_res.png" width="500">
 </div>
 
 It the aim of the wall is to stop a projectile or slow it down as much as possible, these energies should be maximized. Since converting the kinetic energy of the sphere to kinetic energy of the Lego bricks may not be the best option, the frictional dissipation $E_{fric}$ at the end of the simulation can be regarded as the most relevant output.
+
+### Results for four simple designs
+
+<div align="center">
+<img src="images/fem_results/singles-expl-mesh075mm/singles-000_6ms-anim.gif" width="200">
+<img src="images/fem_results/full-expl-mesh075mm/full-000_6ms-anim.gif" width="200">
+<img src="images/fem_results/only-1x4-expl-mesh075mm/only-1x4-000_6ms-anim.gif" width="200">
+<img src="images/fem_results/alternate-1x4-expl-mesh075mm/alternate-1x4-000_6ms-anim.gif" width="200">
+</div>
+
+<div align="center">
+<img src="images/fem_results/singles-expl-mesh075mm/singles_res.png" width="350">
+<img src="images/fem_results/full-expl-mesh075mm/full_res.png" width="350">
+</div>
+
+<div align="center">
+<img src="images/fem_results/only-1x4-expl-mesh075mm/only-1x4_res.png" width="350">
+<img src="images/fem_results/alternate-1x4-expl-mesh075mm/alternate-1x4_res.png" width="350">
+</div>
 
 ## Details on the dataset
 

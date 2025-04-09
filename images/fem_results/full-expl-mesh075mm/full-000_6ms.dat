@@ -1,0 +1,231 @@
+1
+
+   Abaqus 2020                                  Date 01-Mar-2023   Time 09:58:51
+   For use by MONTANUNIVERSITAT LEOBEN under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes SIMULIA Corp.
+                           1301 Atwood Avenue, Suite 101W
+                              Johnston, RI 02919, USA
+ 
+
+
+                   The Abaqus Software is available only under license
+                   from Dassault Systemes or its subsidiary and may be
+                   used or reproduced only in accordance with the terms
+                   of such license.
+ 
+                          On machine kkv-lap-116 
+                          you are authorized to run
+                          Abaqus/Explicit until 29-Feb-2024
+
+                          Your site id is: 200000000002581 
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.3ds.com/products/simulia/locations/
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                       Abaqus 2020                       * 
+                *                                                         * 
+                *          BUILD ID: 2019_09_13-19.49.31 163176           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using                         * 
+                *  release Abaqus 2020 manuals                            * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *   This program may not be used for commercial purposes  * 
+                *           without payment of a commercial fee.          * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *import, update=NO
+  *importnset
+  *importelset
+  *import, update=NO
+  *importnset
+  *importelset
+  *import, update=NO
+  *importnset
+  *importelset
+  *import, update=NO
+  *importnset
+  *importelset
+  *import, update=NO
+  *importnset
+  *importelset
+  *import, update=NO
+  *importnset
+  *importelset
+  *import, update=NO
+  *importnset
+  *importelset
+  *import, update=NO
+  *importnset
+  *importelset
+
+  Library number         1
+  Job name = full                                                                            
+
+     Element and node information will be imported at
+         Step                     3         Step time          0.300000E+01
+         Increment number         1
+      of the specified Abaqus/Standard analysis.
+
+     The element state is to be imported.
+
+     The imported configuration will not be updated.
+
+     The elements in the following element sets 
+       are to be imported :
+                                   ASSEMBLY_BRICK01-TOP_ALL                                                        
+                                   ASSEMBLY_BRICK02-TOP_ALL                                                        
+                                   ASSEMBLY_BRICK03-TOP_ALL                                                        
+                                   ASSEMBLY_BRICK04-TOP_ALL                                                        
+                                   ASSEMBLY_BRICK05-TOP_ALL                                                        
+                                   ASSEMBLY_BRICK06-TOP_ALL                                                        
+                                   ASSEMBLY_BRICK07-TOP_ALL                                                        
+                                   ASSEMBLY_BRICK08-TOP_ALL                                                        
+  *Heading
+  *Node
+  *Element, type=R3D3
+  *Element, type=R3D4
+  *Nset, nset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_
+  *Nset, nset=ASSEMBLY_RIGID-SPHERE-1_RP
+  *Elset, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *Elset, elset=ASSEMBLY__RIGID-CONTACT_SPOS
+
+ ***WARNING: IT IS RECOMMENDED THAT *SECTION CONTROLS, HOURGLASS=ENHANCED BE 
+             USED IN THE ORIGINAL ANALYSIS FOR CONSISTENT TREATMENT OF 
+             HOURGLASS FORCES IN BOTH ORIGINAL AS WELL AS IMPORT ANALYSES
+
+ ***WARNING: IT IS RECOMMENDED THAT *SECTION CONTROLS, HOURGLASS=ENHANCED BE 
+             USED IN THE ORIGINAL ANALYSIS FOR CONSISTENT TREATMENT OF 
+             HOURGLASS FORCES IN BOTH ORIGINAL AS WELL AS IMPORT ANALYSES
+
+ ***WARNING: IT IS RECOMMENDED THAT *SECTION CONTROLS, HOURGLASS=ENHANCED BE 
+             USED IN THE ORIGINAL ANALYSIS FOR CONSISTENT TREATMENT OF 
+             HOURGLASS FORCES IN BOTH ORIGINAL AS WELL AS IMPORT ANALYSES
+
+ ***WARNING: IT IS RECOMMENDED THAT *SECTION CONTROLS, HOURGLASS=ENHANCED BE 
+             USED IN THE ORIGINAL ANALYSIS FOR CONSISTENT TREATMENT OF 
+             HOURGLASS FORCES IN BOTH ORIGINAL AS WELL AS IMPORT ANALYSES
+
+ ***WARNING: IT IS RECOMMENDED THAT *SECTION CONTROLS, HOURGLASS=ENHANCED BE 
+             USED IN THE ORIGINAL ANALYSIS FOR CONSISTENT TREATMENT OF 
+             HOURGLASS FORCES IN BOTH ORIGINAL AS WELL AS IMPORT ANALYSES
+
+ ***WARNING: IT IS RECOMMENDED THAT *SECTION CONTROLS, HOURGLASS=ENHANCED BE 
+             USED IN THE ORIGINAL ANALYSIS FOR CONSISTENT TREATMENT OF 
+             HOURGLASS FORCES IN BOTH ORIGINAL AS WELL AS IMPORT ANALYSES
+
+ ***WARNING: IT IS RECOMMENDED THAT *SECTION CONTROLS, HOURGLASS=ENHANCED BE 
+             USED IN THE ORIGINAL ANALYSIS FOR CONSISTENT TREATMENT OF 
+             HOURGLASS FORCES IN BOTH ORIGINAL AS WELL AS IMPORT ANALYSES
+
+ ***WARNING: IT IS RECOMMENDED THAT *SECTION CONTROLS, HOURGLASS=ENHANCED BE 
+             USED IN THE ORIGINAL ANALYSIS FOR CONSISTENT TREATMENT OF 
+             HOURGLASS FORCES IN BOTH ORIGINAL AS WELL AS IMPORT ANALYSES
+  *rigidbody, refnode=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *rigidbody, refnode=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *rigidbody, refnode=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *rigidbody, refnode=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *surface, type=ELEMENT, name=ASSEMBLY_RIGID-CONTACT
+  *surface, type=ELEMENT, name=ASSEMBLY_RIGID-CONTACT
+  *rigidbody, refnode=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *surfaceinteraction, name=CONT-PROP
+  *friction
+  *rigidbody, refnode=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *rigidbody, refnode=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *boundary
+  *boundary, type=VELOCITY
+  *rigidbody, refnode=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1-REFPT_, elset=ASSEMBLY_RIGID-SPHERE-1_RIGID-SPHERE-1
+  *friction
+  *output, field, numberinterval=80
+  *output, history, variable=PRESELECT
+  *output, history, timeinterval=1.2e-06
+  *Step, name=load, nlgeom=YES
+  *Step, name=load, nlgeom=YES
+  *dynamic, explicit
+  *fixedmassscaling, dt=1.2e-07, type=BELOWMIN
+  *boundary, type=VELOCITY
+  *output, field, numberinterval=80
+  *nodeoutput
+  *output, history, variable=PRESELECT
+  *output, history, timeinterval=1.2e-06
+  *nodeoutput, nset=ASSEMBLY_RIGID-SPHERE-1_RP
+  *endstep
+  *surface, type=ELEMENT, name=ASSEMBLY_RIGID-CONTACT
+  *surfaceinteraction, name=CONT-PROP
+  *friction
+  *surfacebehavior, pressure-overclosure=HARD
+  *boundary
+  *contact, op=NEW
+  *contactinclusions, allexterior
+  *contactpropertyassignment
+  *Step, name=load, nlgeom=YES
+  *dynamic, explicit
+  *boundary, type=VELOCITY
+  *endstep
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                418810
+          NUMBER OF NODES IS                                    98144
+          NUMBER OF NODES DEFINED BY THE USER                   98144
+          TOTAL NUMBER OF VARIABLES IN THE MODEL               294435
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   8.9000    
+       SYSTEM TIME (SEC)    =  0.40000    
+       TOTAL CPU TIME (SEC) =   9.3000    
+       WALLCLOCK TIME (SEC) =          9
