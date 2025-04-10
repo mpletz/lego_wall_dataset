@@ -47,7 +47,7 @@ Since the dataset only considers symmetrical designs, each row starts from the c
 
 ![alt text](images/design_sym.png)
 
-The dataset then contains the `wall_right` list and the energies at the end of the simulation:
+The dataset then contains the `wall_right` list and the energies (in Nmm) at the end of the simulation:
 
 ```
 "1": {"wall_right": [[1, 0, 1, 1], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 0, 1], [0, 0, 1, 0], [1, 0, 1, 0], [1, 0, 1, 1]], "E_fric": 990.3816, "E_kin": 1202.9989, "E_wk": 2451.2402},
