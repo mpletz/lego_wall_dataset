@@ -43,7 +43,7 @@ A dataset of 5281 lego wall designs (width of 8 studs and height of 7 bricks) wi
 
 ![alt text](images/design_def.png)
 
-Since the dataset only considers symmetrical designs, each row starts from the center intersection and is therefore only a 4x7 list:
+Since the dataset only considers symmetrical designs (which means that in total, 2$^4$ = 16 designs are possible per row, which means that a total of 16$^7$ = 268,435,456 designs are possible), each row starts from the center intersection and is therefore only a 4x7 list:
 
 ![alt text](images/design_sym.png)
 
